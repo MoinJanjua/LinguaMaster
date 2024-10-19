@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		835297E62C5A6A3B0099A263 /* VoiceToTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835297E52C5A6A3B0099A263 /* VoiceToTextViewController.swift */; };
+		839ACC022C57C927000A24EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC012C57C927000A24EA /* AppDelegate.swift */; };
+		839ACC042C57C927000A24EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC032C57C927000A24EA /* SceneDelegate.swift */; };
+		839ACC092C57C927000A24EA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 839ACC082C57C927000A24EA /* Base */; };
+		839ACC0B2C57C92B000A24EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839ACC0A2C57C92B000A24EA /* Assets.xcassets */; };
+		839ACC0E2C57C92B000A24EA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 839ACC0D2C57C92B000A24EA /* Base */; };
+		839ACC192C57CA00000A24EA /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC162C57CA00000A24EA /* Helper.swift */; };
+		839ACC1A2C57CA00000A24EA /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC172C57CA00000A24EA /* iOSDropDown.swift */; };
+		839ACC1B2C57CA00000A24EA /* SwiftyTranslate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC182C57CA00000A24EA /* SwiftyTranslate.swift */; };
+		839ACC1F2C57CA69000A24EA /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC1E2C57CA69000A24EA /* AboutusViewController.swift */; };
+		839ACC222C57CA8F000A24EA /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC212C57CA8F000A24EA /* FeedbackViewController.swift */; };
+		839ACC252C57CAAA000A24EA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC242C57CAAA000A24EA /* SettingsViewController.swift */; };
+		839ACC292C57CAE7000A24EA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC272C57CAE7000A24EA /* CameraViewController.swift */; };
+		839ACC2A2C57CAE7000A24EA /* OCRDEtailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC282C57CAE7000A24EA /* OCRDEtailsViewController.swift */; };
+		839ACC2D2C57CF11000A24EA /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC2C2C57CF11000A24EA /* WelcomeVC.swift */; };
+		839ACC302C57CF3A000A24EA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC2F2C57CF3A000A24EA /* HomeViewController.swift */; };
+		839ACC332C57CF78000A24EA /* TranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC322C57CF77000A24EA /* TranslationViewController.swift */; };
+		839ACC362C57CFB0000A24EA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839ACC352C57CFB0000A24EA /* SplashViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		835297E52C5A6A3B0099A263 /* VoiceToTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceToTextViewController.swift; sourceTree = "<group>"; };
+		839ACBFE2C57C927000A24EA /* LinguaMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinguaMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		839ACC012C57C927000A24EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		839ACC032C57C927000A24EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		839ACC082C57C927000A24EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		839ACC0A2C57C92B000A24EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		839ACC0D2C57C92B000A24EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		839ACC0F2C57C92B000A24EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839ACC162C57CA00000A24EA /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		839ACC172C57CA00000A24EA /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		839ACC182C57CA00000A24EA /* SwiftyTranslate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyTranslate.swift; sourceTree = "<group>"; };
+		839ACC1E2C57CA69000A24EA /* AboutusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		839ACC212C57CA8F000A24EA /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		839ACC242C57CAAA000A24EA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		839ACC272C57CAE7000A24EA /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		839ACC282C57CAE7000A24EA /* OCRDEtailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OCRDEtailsViewController.swift; sourceTree = "<group>"; };
+		839ACC2C2C57CF11000A24EA /* WelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		839ACC2F2C57CF3A000A24EA /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		839ACC322C57CF77000A24EA /* TranslationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslationViewController.swift; sourceTree = "<group>"; };
+		839ACC352C57CFB0000A24EA /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839ACBFB2C57C927000A24EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		835297E72C5A76870099A263 /* VoiceToTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				835297E52C5A6A3B0099A263 /* VoiceToTextViewController.swift */,
+			);
+			path = VoiceToTextViewController;
+			sourceTree = "<group>";
+		};
+		839ACBF52C57C927000A24EA = {
+			isa = PBXGroup;
+			children = (
+				839ACC002C57C927000A24EA /* Linguamaster */,
+				839ACBFF2C57C927000A24EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839ACBFF2C57C927000A24EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839ACBFE2C57C927000A24EA /* LinguaMaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839ACC002C57C927000A24EA /* Linguamaster */ = {
+			isa = PBXGroup;
+			children = (
+				835297E72C5A76870099A263 /* VoiceToTextViewController */,
+				839ACC342C57CF8B000A24EA /* Splash */,
+				839ACC312C57CF59000A24EA /* LanguageTranslate */,
+				839ACC2E2C57CF27000A24EA /* HomeVC */,
+				839ACC2B2C57CEE8000A24EA /* WelcomeVC */,
+				839ACC262C57CAC1000A24EA /* OCR */,
+				839ACC232C57CA98000A24EA /* Settings */,
+				839ACC202C57CA78000A24EA /* FeedBack */,
+				839ACC1D2C57CA4C000A24EA /* AboutUs */,
+				839ACC152C57C992000A24EA /* Helper */,
+				839ACC012C57C927000A24EA /* AppDelegate.swift */,
+				839ACC032C57C927000A24EA /* SceneDelegate.swift */,
+				839ACC072C57C927000A24EA /* Main.storyboard */,
+				839ACC0A2C57C92B000A24EA /* Assets.xcassets */,
+				839ACC0C2C57C92B000A24EA /* LaunchScreen.storyboard */,
+				839ACC0F2C57C92B000A24EA /* Info.plist */,
+			);
+			path = Linguamaster;
+			sourceTree = "<group>";
+		};
+		839ACC152C57C992000A24EA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				839ACC162C57CA00000A24EA /* Helper.swift */,
+				839ACC172C57CA00000A24EA /* iOSDropDown.swift */,
+				839ACC182C57CA00000A24EA /* SwiftyTranslate.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		839ACC1D2C57CA4C000A24EA /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				839ACC1E2C57CA69000A24EA /* AboutusViewController.swift */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		839ACC202C57CA78000A24EA /* FeedBack */ = {
+			isa = PBXGroup;
+			children = (
+				839ACC212C57CA8F000A24EA /* FeedbackViewController.swift */,
+			);
+			path = FeedBack;
+			sourceTree = "<group>";
+		};
+		839ACC232C57CA98000A24EA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				839ACC242C57CAAA000A24EA /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		839ACC262C57CAC1000A24EA /* OCR */ = {
+			isa = PBXGroup;
+			children = (
+				839ACC272C57CAE7000A24EA /* CameraViewController.swift */,
+				839ACC282C57CAE7000A24EA /* OCRDEtailsViewController.swift */,
+			);
+			path = OCR;
+			sourceTree = "<group>";
+		};
+		839ACC2B2C57CEE8000A24EA /* WelcomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				839ACC2C2C57CF11000A24EA /* WelcomeVC.swift */,
+			);
+			path = WelcomeVC;
+			sourceTree = "<group>";
+		};
+		839ACC2E2C57CF27000A24EA /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				839ACC2F2C57CF3A000A24EA /* HomeViewController.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		839ACC312C57CF59000A24EA /* LanguageTranslate */ = {
+			isa = PBXGroup;
+			children = (
+				839ACC322C57CF77000A24EA /* TranslationViewController.swift */,
+			);
+			path = LanguageTranslate;
+			sourceTree = "<group>";
+		};
+		839ACC342C57CF8B000A24EA /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				839ACC352C57CFB0000A24EA /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839ACBFD2C57C927000A24EA /* Linguamaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839ACC122C57C92B000A24EA /* Build configuration list for PBXNativeTarget "Linguamaster" */;
+			buildPhases = (
+				839ACBFA2C57C927000A24EA /* Sources */,
+				839ACBFB2C57C927000A24EA /* Frameworks */,
+				839ACBFC2C57C927000A24EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Linguamaster;
+			productName = Linguamaster;
+			productReference = 839ACBFE2C57C927000A24EA /* LinguaMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839ACBF62C57C927000A24EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					839ACBFD2C57C927000A24EA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 839ACBF92C57C927000A24EA /* Build configuration list for PBXProject "Linguamaster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839ACBF52C57C927000A24EA;
+			productRefGroup = 839ACBFF2C57C927000A24EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839ACBFD2C57C927000A24EA /* Linguamaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839ACBFC2C57C927000A24EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839ACC0B2C57C92B000A24EA /* Assets.xcassets in Resources */,
+				839ACC0E2C57C92B000A24EA /* Base in Resources */,
+				839ACC092C57C927000A24EA /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839ACBFA2C57C927000A24EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839ACC1B2C57CA00000A24EA /* SwiftyTranslate.swift in Sources */,
+				839ACC292C57CAE7000A24EA /* CameraViewController.swift in Sources */,
+				839ACC022C57C927000A24EA /* AppDelegate.swift in Sources */,
+				839ACC222C57CA8F000A24EA /* FeedbackViewController.swift in Sources */,
+				839ACC1A2C57CA00000A24EA /* iOSDropDown.swift in Sources */,
+				839ACC362C57CFB0000A24EA /* SplashViewController.swift in Sources */,
+				839ACC332C57CF78000A24EA /* TranslationViewController.swift in Sources */,
+				839ACC042C57C927000A24EA /* SceneDelegate.swift in Sources */,
+				839ACC192C57CA00000A24EA /* Helper.swift in Sources */,
+				839ACC1F2C57CA69000A24EA /* AboutusViewController.swift in Sources */,
+				839ACC2A2C57CAE7000A24EA /* OCRDEtailsViewController.swift in Sources */,
+				839ACC2D2C57CF11000A24EA /* WelcomeVC.swift in Sources */,
+				835297E62C5A6A3B0099A263 /* VoiceToTextViewController.swift in Sources */,
+				839ACC252C57CAAA000A24EA /* SettingsViewController.swift in Sources */,
+				839ACC302C57CF3A000A24EA /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		839ACC072C57C927000A24EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839ACC082C57C927000A24EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		839ACC0C2C57C92B000A24EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				839ACC0D2C57C92B000A24EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		839ACC102C57C92B000A24EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		839ACC112C57C92B000A24EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839ACC132C57C92B000A24EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9963S3DLD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Linguamaster/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Our app uses the camera to capture pictures and to convert images into text. This feature enables you to easily extract and digitize text from physical documents and other sources.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires access to your device's microphone to convert your speech into text. This feature allows you to dictate text, making it easier and faster to input information without typing.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Our app uses the gallery to capture pictures and to convert images into text. This feature enables you to easily extract and digitize text from physical documents and other sources.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Our app uses the gallery to capture pictures and to convert images into text. This feature enables you to easily extract and digitize text from physical documents and other sources.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Our app utilizes speech recognition technology to convert your voice into text, allowing for seamless and efficient text input through dictation.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linguamaster.sm;
+				PRODUCT_NAME = LinguaMaster;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		839ACC142C57C92B000A24EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9963S3DLD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Linguamaster/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Our app uses the camera to capture pictures and to convert images into text. This feature enables you to easily extract and digitize text from physical documents and other sources.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires access to your device's microphone to convert your speech into text. This feature allows you to dictate text, making it easier and faster to input information without typing.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Our app uses the gallery to capture pictures and to convert images into text. This feature enables you to easily extract and digitize text from physical documents and other sources.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Our app uses the gallery to capture pictures and to convert images into text. This feature enables you to easily extract and digitize text from physical documents and other sources.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Our app utilizes speech recognition technology to convert your voice into text, allowing for seamless and efficient text input through dictation.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linguamaster.sm;
+				PRODUCT_NAME = LinguaMaster;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839ACBF92C57C927000A24EA /* Build configuration list for PBXProject "Linguamaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839ACC102C57C92B000A24EA /* Debug */,
+				839ACC112C57C92B000A24EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839ACC122C57C92B000A24EA /* Build configuration list for PBXNativeTarget "Linguamaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839ACC132C57C92B000A24EA /* Debug */,
+				839ACC142C57C92B000A24EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839ACBF62C57C927000A24EA /* Project object */;
+}
